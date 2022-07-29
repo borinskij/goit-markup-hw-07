@@ -84,7 +84,7 @@ a {
   background: #ffffff;
 }
 
-.page-header .container {
+.header .container {
   box-sizing: border-box;
   width: var(--box-sizing);
   display: flex;
@@ -96,7 +96,7 @@ a {
   /* outline: 2px solid red; */
 }
 
-.nav-logo {
+.header__nav-logo {
   display: flex;
   align-items: center;
   margin-left: 0px;
@@ -120,18 +120,18 @@ a {
   color: var(--accent-text-color);
 }
 /* навигация */
-.site-nav {
+.header__nav {
   display: flex;
   flex-direction: row;
   gap: 50px;
 }
 
-.site-nav li {
+.header__nav li {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.site-nav a {
+.header__nav a {
   color: var(--title-text-color);
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -142,12 +142,12 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.header__nav a:hover,
+.header__nav a:focus {
   color: var(--accent-text-color);
 }
 /* контакты */
-.contacts a {
+.header__link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -159,36 +159,37 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.contacts {
+.header__contacts {
   display: flex;
   gap: 50px;
   margin-left: auto;
   align-items: center;
 }
 
-.mail-link {
+.header__link {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* 
 .tel-link {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.contacts-mail:hover a,
-.contacts-tel:hover a,
-.contacts-mail:hover .mail,
-.contacts-tel:hover .tel,
-.contacts a:focus,
-.contacts .mail-link:focus svg,
-.contacts .tel-link:focus svg {
+.header__link:hover,
+/* .contacts-tel:hover a, */
+/* .contacts-mail:hover .mail,
+.contacts-tel:hover .tel, */
+.header__link:focus,
+
+.header__link:focus svg,
+.header__link:focus svg {
   color: var(--accent-text-color);
   fill: var(--accent-text-color);
 }
-.mail {
+.header__mail {
   display: block;
   width: 16px;
   height: 12px;
@@ -200,7 +201,7 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.tel {
+.header__tel {
   display: block;
   width: 10px;
   height: 16px;
