@@ -16,260 +16,262 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body class="page">
     <!--header-->
 
-  <header class="header header-portfolio">
-    <div class="container">
-      <nav class="header__nav">
-        <a href="/" class="logo"> <span class="logo-blu">Web</span>Studio</a>
-        <ul class="header__list ">
-          <li class="header__item"><a class="header__link " href="./index.html">Студия</a></li>
-          <li class="header__item"><a class="header__link portfol" href="./portfolio.html">Портфолио</a></li>
-          <li class="header__item"><a class="header__link" href="">Контакты</a></li>
+    <header class="header">
+      <div class="container portfolio-page">
+        <nav class="header__nav">
+          <a href="/" class="logo"> <span class="logo__blu">Web</span>Studio</a>
+          <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="./index.html">Студия</a></li>
+            <li class="header__item">
+              <a class="header__link portfolio" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header__item"><a class="header__link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="mailto:info@devstudio.com">
+              <svg class="header__icon" width="16px" height="12px">
+                <use href="./image/symbol-defs-hover.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="tel:+380961111111">
+              <svg class="header__icon" width="10px" height="16px">
+                <use href="./image/symbol-defs-hover.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
-      </nav>
-  
-      <ul class="header__list">
-        <li class="header__item">
-          <a class="header__link" href="mailto:info@devstudio.com">
-            <svg class="header__icon" width="16px" height="12px">
-              <use href="./image/symbol-defs-hover.svg#icon-mail"></use>
-            </svg>
-            info@devstudio.com
-          </a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="tel:+380961111111">
-            <svg class="header__icon" width="10px" height="16px">
-              <use href="./image/symbol-defs-hover.svg#icon-smartphone"></use>
-            </svg>
-            +38 096 111 11 11
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
+      </div>
+    </header>
     <!--body-->
 
     <main>
       <section class="portfolio">
         <div class="container">
           <h1 class="visually-hidden">Фильтр</h1>
-          <ul class="list-filter">
-            <li><button type="button" class="filter-button">Все</button></li>
-            <li><button type="button" class="filter-button">Веб-сайты</button></li>
-            <li><button type="button" class="filter-button">Приложения</button></li>
-            <li><button type="button" class="filter-button">Дизайн</button></li>
-            <li><button type="button" class="filter-button">Маркетинг</button></li>
+          <ul class="portfolio__list">
+            <li><button type="button" class="portfolio__button">Все</button></li>
+            <li><button type="button" class="portfolio__button">Веб-сайты</button></li>
+            <li><button type="button" class="portfolio__button">Приложения</button></li>
+            <li><button type="button" class="portfolio__button">Дизайн</button></li>
+            <li><button type="button" class="portfolio__button">Маркетинг</button></li>
           </ul>
           <!-- </div> -->
           <!-- </section> -->
 
           <!-- <section class="portfolio-title-work"> -->
-          <div class="portfolio-work">
+          <div class="job">
             <h2 class="visually-hidden">work</h2>
-            <ul class="work">
+            <ul class="job__list">
               <li>
-                <div class="card-work">
-                  <span class="img-work">
+                <div class="job__card">
+                  <span class="job__img">
                     <img src="./image/8.jpg" alt="Технокряк" width="370" height="294" />
 
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p>
                   </span>
-                  <div class="card-work-name">
-                    <h3 class="work-title">Технокряк</h3>
-                    <p class="work-text">Веб-сайт</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Технокряк</h3>
+                    <p class="job__text">Веб-сайт</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/9.jpeg"
                       alt="Постер New Orlean vs Golden Star"
                       width="370"
                       height="294"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
-                  <div class="card-work-name">
-                    <h3 class="work-title">Постер New Orlean vs Golden Star</h3>
-                    <p class="work-text">Дизайн</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Постер New Orlean vs Golden Star</h3>
+                    <p class="job__text">Дизайн</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/10.jpg"
                       alt="Ресторан Seafood"
                       width="370"
                       height="294"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
 
-                  <div class="card-work-name">
-                    <h3 class="work-title">Ресторан Seafood</h3>
-                    <p class="work-text">Приложение</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Ресторан Seafood</h3>
+                    <p class="job__text">Приложение</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/11.jpg"
                       alt="Проект Prime"
                       width="370"
                       height="260"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
 
-                  <div class="card-work-name">
-                    <h3 class="work-title">Проект Prime</h3>
-                    <p class="work-text">Маркетинг</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Проект Prime</h3>
+                    <p class="job__text">Маркетинг</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/12.jpg"
                       alt="Проект Boxes"
                       width="370"
                       height="260"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
 
-                  <div class="card-work-name">
-                    <h3 class="work-title">Проект Boxes</h3>
-                    <p class="work-text">Приложение</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Проект Boxes</h3>
+                    <p class="job__text">Приложение</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/13.jpg"
                       alt="Inspiration has no Borders"
                       width="370"
                       height="260"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
 
-                  <div class="card-work-name">
-                    <h3 class="work-title">Inspiration has no Borders</h3>
-                    <p class="work-text">Веб-сайт</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Inspiration has no Borders</h3>
+                    <p class="job__text">Веб-сайт</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/14.jpg"
                       alt="Издание Limited Edition"
                       width="370"
                       height="294"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
 
-                  <div class="card-work-name">
-                    <h3 class="work-title">Издание Limited Edition</h3>
-                    <p class="work-text">Дизайн</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Издание Limited Edition</h3>
+                    <p class="job__text">Дизайн</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/15.jpg"
                       alt="Проект LAB"
                       width="370"
                       height="294"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
 
-                  <div class="card-work-name">
-                    <h3 class="work-title">Проект LAB</h3>
-                    <p class="work-text">Маркетинг</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Проект LAB</h3>
+                    <p class="job__text">Маркетинг</p>
                   </div>
                 </div>
               </li>
               <li>
-                <div class="card-work">
-                  <span class="img-work"
+                <div class="job__card">
+                  <span class="job__img"
                     ><img
-                      class="img-work"
+                      class="job__img"
                       src="./image/16.jpg"
                       alt="Growing Business"
                       width="370"
                       height="294"
                     />
-                    <p class="open-card">
+                    <p class="job__popup">
                       Ресурс предлагает комплексные предложения с разным уровнем функционала и
                       сервисов. Все это позволит посетителю получить исчерпывающие сведения о
                       компании или частном лице.
                     </p></span
                   >
 
-                  <div class="card-work-name">
-                    <h3 class="work-title">Growing Business</h3>
-                    <p class="work-text">Приложение</p>
+                  <div class="job__name">
+                    <h3 class="job__title">Growing Business</h3>
+                    <p class="job__text">Приложение</p>
                   </div>
                 </div>
               </li>
@@ -281,75 +283,88 @@
 
     <!--footer-->
 
-      <footer>
-        <section class="footer">
-          <div class="container">
-            <div>
-              <a href="#" class="logo logo-footer">
-                <span class="logo-blu">Web</span><span class="logo-white">Studio</span></a>
-              <address>
-                <div class="footer__adress">
-                  <ul class="footer_list">
-                    <li class="footer__item">
-                      <a class="footer__link map" href="https://goo.gl/maps/8XeGV7SfHETVNLHK6">
-                        г. Киев, пр-т Леси Украинки, 26</a>
-                    </li>
-                    <li class="footer__item">
-                      <a class="footer__link contact" href="mailto:info@example.com">info@example.com</a>
-                    </li>
-                    <li class="footer__item">
-                      <a class="footer__link contact" href="tel:+380991111111">+38 099 111 11 11</a>
-                    </li>
-                  </ul>
-                </div>
-              </address>
-            </div>
-      
-            <div class="footer__social">
-              <h3 class="footer__title">присоединяйтесь</h3>
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <a class="footer__link icon" href="#">
-                    <svg widht="20px" height="20px">
-                      <use href="./image/symbol-defs-hover.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="ooter__item">
-                  <a class="footer__link icon" href="#">
-                    <svg widht="20px" height="20px">
-                      <use href="./image/symbol-defs-hover.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer__item">
-                  <a class="footer__link icon" href="#">
-                    <svg widht="20px" height="20px">
-                      <use href="./image/symbol-defs-hover.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="footer__item">
-                  <a class="footer__link icon" href="#">
-                    <svg widht="20px" height="20px">
-                      <use href="./image/symbol-defs-hover.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer__online">
-              <h2 class="footer__title">Подпишитесь на рассылку</h2>
-              <div class="footer__send">
-                <label for="mail" class="footer__label"></label>
-                <input type="mailto" name="mail" id="mail-f" class="footer__input" placeholder="E-mail" />
-                <button class="footer__bt">Подписаться <svg class="footer__icon" width="24px" height="24px">
-                    <use href='./image/symbol-defs-hover.svg#icon-send'></use>
-                  </svg></button>
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div>
+            <a href="#" class="logo logo-footer">
+              <span class="logo-blu">Web</span><span class="logo-white">Studio</span></a
+            >
+            <address>
+              <div class="footer__adress">
+                <ul class="footer_list">
+                  <li class="footer__item">
+                    <a class="footer__link map" href="https://goo.gl/maps/8XeGV7SfHETVNLHK6">
+                      г. Киев, пр-т Леси Украинки, 26</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link contact" href="mailto:info@example.com"
+                      >info@example.com</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer__link contact" href="tel:+380991111111">+38 099 111 11 11</a>
+                  </li>
+                </ul>
               </div>
+            </address>
+          </div>
+
+          <div class="footer__social">
+            <h3 class="footer__title">присоединяйтесь</h3>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link icon" href="#">
+                  <svg widht="20px" height="20px">
+                    <use href="./image/symbol-defs-hover.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="ooter__item">
+                <a class="footer__link icon" href="#">
+                  <svg widht="20px" height="20px">
+                    <use href="./image/symbol-defs-hover.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link icon" href="#">
+                  <svg widht="20px" height="20px">
+                    <use href="./image/symbol-defs-hover.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link icon" href="#">
+                  <svg widht="20px" height="20px">
+                    <use href="./image/symbol-defs-hover.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__online">
+            <h2 class="footer__title">Подпишитесь на рассылку</h2>
+            <div class="footer__send">
+              <label for="mail" class="footer__label"></label>
+              <input
+                type="mailto"
+                name="mail"
+                id="mail-f"
+                class="footer__input"
+                placeholder="E-mail"
+              />
+              <button class="footer__bt">
+                Подписаться
+                <svg class="footer__icon" width="24px" height="24px">
+                  <use href="./image/symbol-defs-hover.svg#icon-send"></use>
+                </svg>
+              </button>
             </div>
           </div>
-        </section>
-      </footer>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

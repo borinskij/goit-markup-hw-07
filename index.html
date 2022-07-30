@@ -22,7 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
 
   <body class="page">
@@ -30,7 +30,7 @@
     <header class="header">
       <div class="container">
         <nav class="header__nav">
-          <a href="/" class="logo"> <span class="logo-blu">Web</span>Studio</a>
+          <a href="/" class="logo"> <span class="logo__blu">Web</span>Studio</a>
           <ul class="header__list ">
             <li class="header__item"><a class="header__link studio" href="./index.html">Студия</a></li>
             <li class="header__item"><a class="header__link" href="./portfolio.html">Портфолио</a></li>
@@ -66,7 +66,7 @@
 
       <section class="hero">
         <div class="container">
-          <h1 class="hero__title">ЭФФЕКТИВНЫУ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <h1 class="hero__title">ЭФФЕКТИВНЫE РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
@@ -424,8 +424,8 @@
       <section class="footer">
         <div class="container">
           <div>
-            <a href="#" class="logo logo-footer">
-              <span class="logo-blu">Web</span><span class="logo-white">Studio</span></a>
+            <a href="#" class="logo logo__footer">
+              <span class="logo__blu">Web</span><span class="logo__white">Studio</span></a>
             <address>
               <div class="footer__adress">
                 <ul class="footer_list">
@@ -489,63 +489,64 @@
       </section>
     </footer>
 
-    <!-- ====================== Model ==================== -->
+    <!-- ====================== modal ==================== -->
 
-    <div class="backdrop is-hidden" data-modal>
-      <div class="model">
-        <button class="model-button" type="button" data-modal-close>
+    <div class="backdrop s-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__button" type="button" data-modal-close>
           <svg class="close" width="18px" height="18px">
             <use href="./image/symbol-defs-hover.svg#icon-close-black"></use>
           </svg>
         </button>
-        <p class="model-titl">Оставьте свои данные, мы вам перезвоним</p>
-        <form action="" class="model-form">
-          <div class="model-field">
-            <label for="name" class="model-label"> <span>Имя</span></label>
-            <div class="imput-wrap">
-              <input type="text" name="name" id="name" class="model-input" required />
-              <svg width="18px" height="18px" class="model-icon">
+        <p class="modal__titl">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="">
+          <div class="modal__field">
+            <label for="name" class="modal__label"> <span>Имя</span></label>
+            <div class="modal__wrap">
+              <input type="text" name="name" id="name" class="modal__input" required />
+              <svg width="18px" height="18px" class="modal__icon">
                 <use href="./image/symbol-defs-hover.svg#icon-person"></use>
               </svg>
             </div>
           </div>
-          <div class="model-field">
-            <label for="tel" class="model-label"><span>Телефон</span></label>
-            <div class="imput-wrap">
-              <input type="tel" name="tel" id="tel" class="model-input" value="+380" />
-              <svg width="18px" height="18px" class="model-icon">
+          <div class="modal__field">
+            <label for="tel" class="modal__label"><span>Телефон</span></label>
+            <div class="modal__wrap">
+              <input type="tel" name="tel" id="tel" class="modal__input" value="+380" />
+              <svg width="18px" height="18px" class="modal__icon">
                 <use href="./image/symbol-defs-hover.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
-          <div class="model-field">
-            <label for="mail" class="model-label"><span>Почта</span></label>
-            <div class="imput-wrap">
-              <input type="email" name="mail" id="mail" class="model-input" />
-              <svg width="18px" height="18px" class="model-icon">
+          <div class="modal__field">
+            <label for="mail" class="modal__label"><span>Почта</span></label>
+            <div class="modal__wrap">
+              <input type="email" name="mail" id="mail" class="modal__input" />
+              <svg width="18px" height="18px" class="modal__icon">
                 <use href="./image/symbol-defs-hover.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
-          <div class="model-field">
-            <label for="koment" class="model-koment"><span>Комментарий</span></label>
+          <div class="modal__field">
+            <label for="koment" class="modal__koment"><span>Комментарий</span></label>
             <textarea
               name="koment"
               id="koment"
               placeholder="Введите текст"
-              class="model-koment-text"
+              class="modal__koment-text"
             ></textarea>
           </div>
-          <div class="model-field">
+          <div class="modal__field">
             <input type="checkbox" 
-            class="input-check visually-hidden" 
+            class="input__check visually-hidden" 
             name="privasy" 
             value="try" 
           id="privasy">
-            <label for="privasy" class="check-text">Соглашаюсь с рассылкой и принимаю  &nbsp <a href="#">Условия договора</a></label>
+            <label for="privasy" class="check__text">Соглашаюсь с рассылкой и принимаю  &nbsp 
+              <a href="#">Условия договора</a></label>
           </div>
 
-          <butto type="submit" class="model-bt">Отправить</button>
+          <butto type="submit" class="modal__bt">Отправить</button>
         
         </form>
 
