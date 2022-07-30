@@ -177,16 +177,16 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__input:checked+&::before {
+    &__checkbox:checked+&__check::before {
         background-color: var(--accent-text-color);
         border: transparent;
-        background-image: url(../image/check.svg);
+        background-image: url(../image/check.svg#icon-check);
         fill: #ffffff;
         background-repeat: no-repeat;
         background-position: center;
     }
 
-    &__input:focus+&__check::before {
+    &__checkbox:focus+&__check::before {
         border-color: #2196f3;
     }
 

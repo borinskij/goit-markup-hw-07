@@ -842,14 +842,14 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__input:checked + .modal::before {
+.modal__checkbox:checked + .modal__check::before {
   background-color: var(--accent-text-color);
   border: transparent;
-  background-image: url(../image/check.svg);
+  background-image: url(../image/check.svg#icon-check);
   fill: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
 }
-.modal__input:focus + .modal__check::before {
+.modal__checkbox:focus + .modal__check::before {
   border-color: #2196f3;
 }/*# sourceMappingURL=main.css.map */
