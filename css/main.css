@@ -132,7 +132,7 @@ address {
   padding-bottom: 25px;
   position: relative;
 }
-.header__link {
+.header__link a {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -332,7 +332,7 @@ address {
   padding-left: 15px;
   padding-right: 15px;
 }
-.team__title {
+.team__title-top {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -341,7 +341,6 @@ address {
   letter-spacing: 0.03em;
   box-sizing: border-box;
   margin-bottom: 50px;
-  /* outline: 2px solid red; */
   /* margin-bottom: 50px; */
 }
 .team__card {
