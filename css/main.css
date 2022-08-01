@@ -585,6 +585,7 @@ address {
 
 .job {
   justify-content: center;
+  padding-bottom: 94px;
 }
 .job__list {
   display: flex;
