@@ -68,6 +68,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: var(--box-sizing);
   margin-left: auto;
@@ -190,10 +194,6 @@ a {
   background-repeat: no-repeat;
   margin: auto;
 }
-.hero .container {
-  width: 1200px;
-  margin: auto;
-}
 .hero__title, .hero__button {
   color: #ffffff;
   /* color: #1fda9b; */
@@ -234,12 +234,6 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.accent .container {
-  width: var(--box-sizing);
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .accent__card {
   display: flex;
   justify-content: space-between;
@@ -277,12 +271,6 @@ a {
 
 .about {
   padding-bottom: 94px;
-}
-.about .container {
-  width: var(--box-sizing);
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .about__title {
   color: var(--title-text-color);
@@ -325,12 +313,6 @@ a {
   padding-top: 94px;
   background: #f5f4fa;
   padding-bottom: 94px;
-}
-.team .container {
-  width: var(--box-sizing);
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .team__title-top {
   color: var(--title-text-color);
@@ -424,12 +406,6 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.klient .container {
-  width: var(--box-sizing);
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .klient__title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -482,12 +458,6 @@ a {
   background-color: #2f303a;
 }
 .footer .container {
-  width: var(--box-sizing);
-  margin: auto;
-  width: var(--box-sizing);
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -580,12 +550,6 @@ a {
   fill: #ffffff;
 }
 
-.portfolio .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0px 15px;
-  padding-bottom: 94px;
-}
 .portfolio__button {
   background: #f5f4fa;
   border-radius: 4px;

@@ -2,12 +2,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
-    & .container {
-        width: var(--box-sizing);
-        margin: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+
     &__title {
         color: var(--title-text-color);
         font-weight: 700;
