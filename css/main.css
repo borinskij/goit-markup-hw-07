@@ -12,10 +12,6 @@
   letter-spacing: 0.03em;
 }
 
-/* 
-address {
-  text-decoration: none;
-} */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -72,6 +68,10 @@ button {
   cursor: pointer;
 }
 
+address {
+  text-decoration: none;
+}
+
 .container {
   width: var(--box-sizing);
   margin-left: auto;
@@ -81,7 +81,7 @@ button {
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   color: #000000;
   font-size: 26px;
   line-height: 1.2;
@@ -163,7 +163,7 @@ button {
 }
 .header .studio::after,
 .header .portfolio::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 4px;
@@ -172,12 +172,10 @@ button {
   bottom: 0;
   left: 0%;
 }
-.header__link:hover .header__icon,
-.header__link:focus .header__icon {
+.header__link:hover .header__icon, .header__link:focus .header__icon {
   fill: var(--accent-text-color);
 }
-.header__link:hover,
-.header__link:focus {
+.header__link:hover, .header__link:focus {
   color: var(--accent-text-color);
 }
 .header.portfolio-page {
@@ -190,15 +188,13 @@ button {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #c4c4c4;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../image/hero.jpeg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero.jpeg);
   max-width: 1600px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin: auto;
 }
-.hero__title,
-.hero__button {
+.hero__title, .hero__button {
   color: #ffffff;
   /* color: #1fda9b; */
 }
@@ -334,8 +330,7 @@ button {
   height: auto;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -402,8 +397,7 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team__link:hover,
-.team__link:focus {
+.team__link:hover, .team__link:focus {
   background-color: var(--accent-text-color);
   fill: #ffffff;
 }
@@ -544,8 +538,7 @@ button {
   padding-left: 29px;
   margin-left: 10px;
 }
-.footer__link.icon:hover,
-.footer__link.icon:focus {
+.footer__link.icon:hover, .footer__link.icon:focus {
   background-color: var(--accent-text-color);
 }
 .footer__send {
@@ -575,12 +568,10 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__button:hover,
-.portfolio__button:focus {
+.portfolio__button:hover, .portfolio__button:focus {
   background-color: var(--accent-text-color);
   color: #ffffff;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio__list {
   padding: 0px;
@@ -610,10 +601,8 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.job__card:hover,
-.job__card:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.job__card:hover, .job__card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .job__name {
   padding: 20px 24px;
@@ -640,7 +629,7 @@ button {
   overflow: hidden;
 }
 .job__popup {
-  content: '';
+  content: "";
   position: absolute;
   background: rgba(33, 150, 243, 0.9);
   font-weight: 400;
@@ -678,8 +667,7 @@ button {
   width: 528px;
   min-height: 581px;
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   top: 50%;
   left: 50%;
@@ -701,8 +689,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-.modal__button svg:hover,
-.modal__button:focus svg {
+.modal__button svg:hover, .modal__button:focus svg {
   fill: var(--accent-text-color);
 }
 .modal__titl {
@@ -714,8 +701,7 @@ button {
   margin-bottom: 12px;
   color: #212121;
 }
-.modal_label span,
-.modal__koment span {
+.modal_label span, .modal__koment span {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -764,15 +750,13 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__input:hover,
-.modal__koment-text:hover {
+.modal__input:hover, .modal__koment-text:hover {
   border-color: var(--accent-text-color);
 }
 .modal__input:focus + svg {
   fill: var(--accent-text-color);
 }
-.modal__input:focus,
-.modal__koment-text:focus {
+.modal__input:focus, .modal__koment-text:focus {
   border-color: var(--accent-text-color);
 }
 .modal__bt {
@@ -811,7 +795,7 @@ button {
   color: #2196f3;
 }
 .modal__check::before {
-  content: '';
+  content: "";
   width: 16px;
   height: 15px;
   border: #000000 2px solid;
@@ -831,4 +815,4 @@ button {
 }
 .modal__checkbox:focus + .modal__check::before {
   border-color: #2196f3;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

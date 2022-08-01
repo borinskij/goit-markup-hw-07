@@ -1,6 +1,7 @@
 @import './utils/variables';
 @import './base/reset';
 @import './components/container';
+@import './utils/mixins';
 @import './components/logo';
 
 
@@ -14,4 +15,4 @@
 
 @import './layout/portfolio-button';
 @import './layout/portfolio-job';
-@import './layout/modal';
+@import './components/modal';
